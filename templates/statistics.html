@@ -1,0 +1,638 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+  <meta charset="utf-8">
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/sites/all/themes/kidshelpline/imgs/favicon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/sites/all/themes/kidshelpline/imgs/favicon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/sites/all/themes/kidshelpline/imgs/favicon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/sites/all/themes/kidshelpline/imgs/favicon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/sites/all/themes/kidshelpline/imgs/favicon/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/sites/all/themes/kidshelpline/imgs/favicon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/sites/all/themes/kidshelpline/imgs/favicon/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/sites/all/themes/kidshelpline/imgs/favicon/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/kidshelpline/imgs/favicon/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/kidshelpline/imgs/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/kidshelpline/imgs/favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/kidshelpline/imgs/favicon/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/sites/all/themes/kidshelpline/imgs/favicon/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="/sites/all/themes/kidshelpline/imgs/favicon/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="/sites/all/themes/kidshelpline/imgs/favicon/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="/sites/all/themes/kidshelpline/imgs/favicon/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="/sites/all/themes/kidshelpline/imgs/favicon/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="/sites/all/themes/kidshelpline/imgs/favicon/mstile-310x310.png" />
+
+  <link rel="stylesheet" href="/sites/all/themes/kidshelpline/animate.min.css">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l r (SS~~000 0))'>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZDVTPF');</script>
+  <!-- End Google Tag Manager -->
+
+  <style>.async-hide { opacity: 0 !important}
+  .tileimg1{
+		min-height: 250px;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+  </style>
+  <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+  })(window,document.documentElement,'async-hide','dataLayer',4000,
+  {'GTM-TZDVTPF':true});</script>
+
+  <!-- Bugherd 
+  <script type='text/javascript'>
+    (function (d, t) {
+      var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      bh.type = 'text/javascript';
+      bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=2lgzcnctdjhfdjkvs5focq';
+      s.parentNode.insertBefore(bh, s);
+      })(document, 'script');
+  </script>
+  -->
+
+  <!-- Hotjar Tracking Code for https://kidshelpline.com.au -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:715533,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+
+  <!-- JS Cookie -->
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+  <!-- Facebook Pixel Code 
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '122741325061222');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=122741325061222&ev=PageView&noscript=1"/></noscript>
+   End Facebook Pixel Code -->
+
+  <!-- TypeKit -->
+  <script src="https://use.typekit.net/akt8xku.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  
+  <!-- <script src="//cms.headtohealth.gov.au/bundle/beacon"></script> -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Support is always available. If you’re being cyberbullied, it’s important to talk to someone you trust. If you need help to get through this, give us a call, start a WebChat or send us an email." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://kidshelpline.com.au/teens/issues/cyberbullying" />
+<link rel="shortlink" href="https://kidshelpline.com.au/node/1877" />
+<meta property="og:site_name" content="Kids Helpline" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Experiencing cyberbullying?" />
+<meta property="og:url" content="https://kidshelpline.com.au/teens/issues/cyberbullying" />
+<meta property="og:description" content="Find out what cyberbullying is and what you can do to protect yourself." />
+<meta property="og:updated_time" content="2019-03-25T14:17:59+10:00" />
+<meta property="og:image" content="https://kidshelpline.com.au/sites/default/files/thumbnail-T-CB.png" />
+<meta property="og:image:url" content="https://kidshelpline.com.au/sites/default/files/thumbnail-T-CB.png" />
+<meta property="og:image:secure_url" content="https://kidshelpline.com.au/sites/default/files/thumbnail-T-CB.png" />
+<meta property="og:image:type" content="PNG" />
+<meta property="article:published_time" content="2017-09-11T15:51:58+10:00" />
+<meta property="article:modified_time" content="2019-03-25T14:17:59+10:00" />
+<link rel="shortcut icon" href="http://khl.orangedigital.com.au/sites/all/themes/kidshelpline/imgs/favicon/favicon.ico" type="image/vnd.microsoft.icon" />
+
+  <title>Cyberbullying | How to Protect Yourself & Get Support | Kids Helpline</title>
+  <link type="text/css" rel="stylesheet" href="https://kidshelpline.com.au/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://kidshelpline.com.au/sites/default/files/css/css_viMOpqjB0eRYPjeDXbIDvTC1mQLPYvd9pNJVktBPRiI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://kidshelpline.com.au/sites/default/files/css/css_E6tJSJBiO8pjEdGihvu6bwrptSrERFSIHwPokGCzyPw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://kidshelpline.com.au/sites/default/files/css/css_4amY2hkXPQfVrsIGdGL2f9EfVtLd_O2aoGyfDzxkV8M.css" media="all" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")</script>
+<script src="https://kidshelpline.com.au/misc/jquery.once.js?v=1.2"></script>
+<script src="https://kidshelpline.com.au/misc/drupal.js?pp0jsu"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.js"></script>
+<script>var _vis_opt_account_id = 246114;
+var _vis_opt_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+document.write('<s' + 'cript src="' + _vis_opt_protocol + 'dev.visualwebsiteoptimizer.com/deploy/js_visitor_settings.php?v=1&a=' + _vis_opt_account_id + '&url=' + encodeURIComponent(document.URL) + '&random=' + Math.random() + '" type="text/javascript">' + '<\/s' + 'cript>');</script>
+<script>if(typeof(_vis_opt_settings_loaded) == "boolean") { document.write('<s' + 'cript src="' + _vis_opt_protocol + 'd5phz18u4wuww.cloudfront.net/vis_opt_no_jquery.js" type="text/javascript">' + '<\/s' + 'cript>'); }</script>
+<script>if(typeof(_vis_opt_settings_loaded) == "boolean" && typeof(_vis_opt_top_initialize) == "function") { _vis_opt_top_initialize(); vwo_$(document).ready(function() { _vis_opt_bottom_initialize(); }); }</script>
+<script src="https://kidshelpline.com.au/sites/all/libraries/outdatedbrowser/outdatedbrowser/outdatedbrowser.min.js?pp0jsu"></script>
+<script src="https://kidshelpline.com.au/sites/all/modules/contrib/outdatedbrowser/js/outdatedbrowser.js?pp0jsu"></script>
+<script src="https://kidshelpline.com.au/sites/all/themes/kidshelpline/js/placeholder-min.js?pp0jsu"></script>
+<script src="https://kidshelpline.com.au/sites/all/themes/kidshelpline/js/jquery-migrate-1.2.1.min.js?pp0jsu"></script>
+<script src="https://kidshelpline.com.au/sites/all/themes/kidshelpline/js/bootstrap-notify.min.js?pp0jsu"></script>
+<script src="https://kidshelpline.com.au/sites/all/themes/kidshelpline/js/slick.min.js?pp0jsu"></script>
+<script src="https://kidshelpline.com.au/sites/all/themes/kidshelpline/js/bootstrap-tabcollapse-min.js?pp0jsu"></script>
+<script src="https://kidshelpline.com.au/sites/all/themes/kidshelpline/js/bootstrap-select.js?pp0jsu"></script>
+<script src="https://kidshelpline.com.au/sites/all/themes/kidshelpline/js/SmoothScroll-min.js?pp0jsu"></script>
+<script src="https://kidshelpline.com.au/sites/all/themes/kidshelpline/js/jquery.bgswitcher-min.js?pp0jsu"></script>
+<script src="https://kidshelpline.com.au/sites/all/themes/kidshelpline/js/jquery.fittext-min.js?pp0jsu"></script>
+<script src="https://kidshelpline.com.au/sites/all/themes/kidshelpline/js/jquery.matchHeight.min.js?pp0jsu"></script>
+<script src="https://kidshelpline.com.au/sites/all/themes/kidshelpline/js/theme-min.js?pp0jsu"></script>
+<script src="https://kidshelpline.com.au/sites/all/themes/kidshelpline/js/jquery.cookie.js?pp0jsu"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"kidshelpline","theme_token":"QgKkOIzOMSTJ221yyG-kz5NBssHL97PRDA9dmZiP9kk","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.3.7\/dist\/js\/bootstrap.js":1,"1":1,"2":1,"3":1,"sites\/all\/libraries\/outdatedbrowser\/outdatedbrowser\/outdatedbrowser.min.js":1,"sites\/all\/modules\/contrib\/outdatedbrowser\/js\/outdatedbrowser.js":1,"sites\/all\/themes\/kidshelpline\/js\/placeholder-min.js":1,"sites\/all\/themes\/kidshelpline\/js\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/kidshelpline\/js\/bootstrap-notify.min.js":1,"sites\/all\/themes\/kidshelpline\/js\/slick.min.js":1,"sites\/all\/themes\/kidshelpline\/js\/bootstrap-tabcollapse-min.js":1,"sites\/all\/themes\/kidshelpline\/js\/bootstrap-select.js":1,"sites\/all\/themes\/kidshelpline\/js\/SmoothScroll-min.js":1,"sites\/all\/themes\/kidshelpline\/js\/jquery.bgswitcher-min.js":1,"sites\/all\/themes\/kidshelpline\/js\/jquery.fittext-min.js":1,"sites\/all\/themes\/kidshelpline\/js\/jquery.matchHeight.min.js":1,"sites\/all\/themes\/kidshelpline\/js\/theme-min.js":1,"sites\/all\/themes\/kidshelpline\/js\/jquery.cookie.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/outdatedbrowser\/outdatedbrowser\/outdatedbrowser.min.css":1,"sites\/all\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.3.7\/dist\/css\/bootstrap.min.css":1,"sites\/all\/themes\/bootstrap\/css\/3.3.7\/overrides.min.css":1,"sites\/all\/themes\/kidshelpline\/css\/style.css":1}},"outdatedbrowser":{"bgColor":"#f25648","color":"#ffffff","lowerThan":"transform","languagePath":"https:\/\/kidshelpline.com.au\/sites\/all\/libraries\/outdatedbrowser\/outdatedbrowser\/lang\/en.html"},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-1877 node-type-issues  " >
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZDVTPF"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <a name="top"></a>
+    
+<!-- SUB-HEADER -->
+    <div class="region region-subheader">
+    <section id="block-system-main-menu" class="block block-system block-menu clearfix">
+
+        <h2 class="block-title">Main Menu</h2>
+    
+  <ul class="menu nav">
+  <a href="/" class="kids">Home</a>
+  <a href="/result1" class="kids">CyberBulliers</a>
+  <a href="/statistics" class="teens">Cyberbullying Statistics</a></ul>
+</section>
+  </div>
+
+
+
+
+<div class="main-container container-fluid ">
+  <div class="row">
+        <section>
+          <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+<!-- /PARAGRAPH BUNDLE TEXT -->		<!-- PARAGRAPH BUNDLE TEXT -->
+<div class="bdl bdl-text clearfix">
+	  	<div class="">
+		<div class="body"><p><strong>Here are the tweets of some selected personalities:</strong></p><p>&nbsp;</p></div>
+	</div>
+</div>
+<!-- /PARAGRAPH BUNDLE TEXT --></div>
+</div>		<!-- BLD SECTION -->
+<div class="">
+	
+<div class="paragraphs-items paragraphs-items-field-bundle paragraphs-items-field-bundle-full paragraphs-items-full">
+  		<!-- PARAGRAPH BUNDLE TILE -->
+<div class="bdl bdl-tile">
+	  	<div class=" ">
+        <!-- COLLECTION ITEM TILE -->
+<div class="tile col-xs-12 col-sm-6 col-md-6">
+	    	<div class="tileimg1" style="background-image:url(https://res.cloudinary.com/deu3ge0fh/image/upload/v1554661445/amritanandamayi.png)"></div>
+		<div class="content">
+			    	    	<div class="tile-tag">Mata Amritanandamayi</div>
+	    	   		</div>
+			<div class="buttons"><div class="field-collection-container clearfix"><!-- COLLECTION ITEM BUTTON -->
+</div></div>
+	</div>
+	<div class="tile col-xs-12 col-sm-6 col-md-6">
+	    	<div class="tileimg1" style="background-image:url(https://res.cloudinary.com/deu3ge0fh/image/upload/v1554662042/kalaignar89.png)"></div>
+		<div class="content">
+			    	    	<div class="tile-tag">kalaignar karunanidhi</div>
+	    	   		</div>
+			<div class="buttons"><div class="field-collection-container clearfix"><!-- COLLECTION ITEM BUTTON -->
+</div></div>
+	</div>
+	<div class="tile col-xs-12 col-sm-6 col-md-6">
+	    	<div class="tileimg1" style="background-image:url(https://res.cloudinary.com/deu3ge0fh/image/upload/v1554662043/deepikapadukone.png)"></div>
+		<div class="content">
+			    	    	<div class="tile-tag">Deepika Padukone</div>
+	    	   		</div>
+			<div class="buttons"><div class="field-collection-container clearfix"><!-- COLLECTION ITEM BUTTON -->
+</div></div>
+	</div>
+	<div class="tile col-xs-12 col-sm-6 col-md-6">
+	    	<div class="tileimg1" style="background-image:url(https://res.cloudinary.com/deu3ge0fh/image/upload/v1554662042/BarackObama.png)"></div>
+		<div class="content">
+			    	    	<div class="tile-tag">Barack Obama</div>
+	    	   		</div>
+			<div class="buttons"><div class="field-collection-container clearfix"><!-- COLLECTION ITEM BUTTON -->
+</div></div>
+	</div>
+	<div class="tile col-xs-12 col-sm-6 col-md-6">
+	    	<div class="tileimg1" style="background-image:url(https://res.cloudinary.com/deu3ge0fh/image/upload/v1554662042/BarackObama.png)"></div>
+		<div class="content">
+			    	    	<div class="tile-tag">Barack Obama</div>
+	    	   		</div>
+			<div class="buttons"><div class="field-collection-container clearfix"><!-- COLLECTION ITEM BUTTON -->
+</div></div>
+	</div>
+	<div class="tile col-xs-12 col-sm-6 col-md-6">
+	    	<div class="tileimg1" style="background-image:url(https://res.cloudinary.com/deu3ge0fh/image/upload/v1554662009/narendramodi.png)"></div>
+		<div class="content">
+			    	    	<div class="tile-tag">Narendra Modi</div>
+	    	   		</div>
+			<div class="buttons"><div class="field-collection-container clearfix"><!-- COLLECTION ITEM BUTTON -->
+</div></div>
+	</div>
+	<div class="tile col-xs-12 col-sm-6 col-md-6">
+	    	<div class="tileimg1" style="background-image:url(https://res.cloudinary.com/deu3ge0fh/image/upload/v1554662009/ViratKohli_King.png)"></div>
+		<div class="content">
+			    	    	<div class="tile-tag">Virat Kohli</div>
+	    	   		</div>
+			<div class="buttons"><div class="field-collection-container clearfix"><!-- COLLECTION ITEM BUTTON -->
+</div></div>
+	</div>
+	<div class="tile col-xs-12 col-sm-6 col-md-6">
+	    	<div class="tileimg1" style="background-image:url(https://res.cloudinary.com/deu3ge0fh/image/upload/v1554662009/realDonaldTrump.png)"></div>
+		<div class="content">
+			    	    	<div class="tile-tag">Donald Trump</div>
+	    	   		</div>
+			<div class="buttons"><div class="field-collection-container clearfix"><!-- COLLECTION ITEM BUTTON -->
+</div></div>
+	</div>
+
+<!-- /PARAGRAPH BUNDLE TILE -->
+</div>
+</div></div>          <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+<script>
+    var showStep2FloatBar = true;
+    $('.star-container button').click(saveRating);
+
+    $(document).ready(function() {
+        hideFeedback();
+        // hideTellUsMore();
+        hideComment();
+        hideStep1Float();
+        hideStep2Float();
+
+        var rating_rate = Cookies.get('rating_rate_' + 1877);
+        var rating_id = Cookies.get('rating_id_' + 1877);
+        var rating_comment = Cookies.get('rating_comment_' + 1877);
+
+        if (rating_rate) {
+            for (var i = 1; i <= rating_rate; i++) {
+                $('button[data-rating=' + i + '] i').toggleClass('fa-star-o');
+            } 
+
+            if (rating_id) {
+                $("#rating_id").val(rating_id);
+            }
+
+            if (rating_comment) {
+
+            } else {
+                showComment();
+                showStep2Float();
+            }
+
+            showFeedback();
+        } else {
+            $('.star-container button').hover(toggleStars);
+        }
+
+        // Hide/Show float when user can see rating block
+        $(window).on('scroll', function(e){
+            var viss = isOnScreen($('.block-khl-ratings'));
+            var rating_id_scroll = Cookies.get('rating_id_' + 1877);
+            var rating_comment_scroll = Cookies.get('rating_comment_' + 1877);
+            if (viss) {
+                hideStep1Float();
+                hideStep2Float();
+            } else {
+
+                if(window.scrollY > 1000){
+
+                    if (rating_id_scroll) {
+                        hideStep1Float();
+                        if(showStep2FloatBar){
+                            showStep2Float();
+                        }                
+                    } else {
+                        showStep1Float();
+                    }
+                    if (rating_comment_scroll) {
+                        hideStep1Float();
+                        hideStep2Float();
+                    } else {
+                    }
+                }else{
+
+                }
+            }   
+        });
+    });
+
+    function isOnScreen(element) {
+        var curPos = element.offset();
+        var curTop = curPos.top - $(window).scrollTop();
+        var screenHeight = $(window).height();
+        return (curTop > screenHeight) ? false : true;
+    }
+
+    function showFeedback() {
+        $('.rating-success').fadeIn();
+
+        setTimeout(function(){
+            hideFeedback();
+        }, 3000);
+    }
+
+    function hideFeedback() {
+        $('.rating-success').fadeOut();
+    }
+
+    function showTellUsMore() {
+        $('.rating-more').show();
+    }
+
+    function hideTellUsMore() {
+        $('.rating-more').hide();
+    }
+
+    function showComment() {
+        $('.rating-comment').show();
+    }
+
+    function hideComment() {
+        $('.rating-comment').hide();
+    }
+
+    function tellUsMoreClick() {
+        $('.rating-more').fadeOut(function() {
+            $('.rating-comment').fadeIn();
+        });
+    }
+    function hideFloat() {
+        $('.floating-rate-content').hide();
+    }
+    function hideStep1Float() {
+        $('.floating-rate-content .step1').hide();
+    }
+    function showStep1Float() {
+        $('.floating-rate-content .step1').show();
+    }
+    function showStep2Float() {
+        $('.floating-rate-content .step2').show();
+        setTimeout(function(){
+            showStep2FloatBar = false;
+            hideStep2Float();
+        }, 5000);
+    }
+    function hideStep2Float() {
+        $('.floating-rate-content .step2').hide();
+    }
+    function scrollToRating() {
+        var pos = $('.block-khl-ratings').offset().top;
+        $(window).scrollTop(pos);
+    }
+
+    function saveRating() {
+        var rating = $(this).data('rating');
+        var hasRated = Cookies.get('rating_rate_' + 1877);
+        
+        if (hasRated) return;
+
+        $('.star-container button').unbind('mouseenter mouseleave');
+
+        $.ajax({
+            method: 'POST',
+            url: '/api/ratings/create',
+            dataType: "json",
+            data: {
+                rating: rating,
+                nid: 1877,
+                url: window.location.href
+            }
+        }).done(function(response) {
+            showFeedback();
+            // showTellUsMore();
+
+            showComment();
+            showStep2Float();
+
+            $("#rating_id").val(response.rating);
+
+            Cookies.set('rating_rate_' + 1877, rating);
+            Cookies.set('rating_id_' + 1877, response.rating);
+
+            hideStep1Float();
+        });
+    }
+
+    function postRatingComment() {
+        var ratingId = Cookies.get('rating_id_' + 1877);
+        var comment = $(".rating_comment").val();
+        var hasCommented = Cookies.get('rating_comment_' + 1877);
+        
+        if (hasCommented) return;
+
+        if (comment == "") return;
+
+        $.ajax({
+            method: 'POST',
+            url: '/api/ratings/comment',
+            dataType: "json",
+            data: {
+                rating_id: ratingId,
+                comment: comment
+            }
+        }).done(function(response) {
+            showFeedback();
+            hideComment();
+            hideStep2Float();
+            Cookies.set('rating_comment_' + 1877, 1);
+        });
+    }
+
+    function toggleStars() {
+        var rating = $(this).data('rating');
+
+        for (var i = 1; i <= rating; i++) {
+            $('button[data-rating=' + i + '] i').toggleClass('fa-star-o');
+        }
+    }
+</script>
+</section>	</div>
+</div>
+<!-- /PARAGRAPH BUNDLE BLOCK --></div>
+<!-- PARAGRAPH BUNDLE CONTACT US -->
+</div>
+
+
+</section>
+  </div>
+    </section>
+  </div>
+</div>
+
+<div class="drp-tab container">
+  </div>
+
+
+
+  
+
+  <!-- Modal: Submit Story confirm -->
+  <div class="modal fade khl-modal" id="submitStoryConfirmation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog big-modal">
+          <div class="modal-content bgcolor-light_pink">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="container modal-body mbottom60 text-center">
+                  <h2 class="title mtop20">Just confirming — what would you like to do?</h2>
+                  <div class="col-xs-12 col-sm-12 col-md-5 row mtop40">
+                      <img src="/sites/all/themes/kidshelpline/imgs/submit-story/story_submit_confirm.png" class="mbottom20" style="height: 150px;" />
+                      <div class="font--26 line-height--30 font--pink font--semibold">Publish your story on our website.</div>
+                      <p class="mtop10">Reading your story can help other young people deal with the tough times.</p>
+                      <a class="btn btn_primary" href="/submit-your-story" target="_blank">Submit your story</a>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-2 row mtop40">
+                      <img src="/sites/all/themes/kidshelpline/imgs/submit-story/story_submit_help.png" class="mbottom20" style="height: 150px;" />
+                      <div class="font--26 line-height--30 font--blue font--semibold">Speak to a Counsellor</div>
+                      <p class="mtop10">You can contact our counsellors on <a href="tel:1800551800" class="font--blue">1800551800</a>, <a href="/get-help/email-counselling/" class="font--blue">email</a> or <a href="/get-help/webchat-counselling" class="font--blue">webchat</a>.</p>
+                      <a class="btn btn_default--blue getHelp" id="getHelp" href="#" target="_blank">Get Help</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Modal: Submit Story confirm -->
+
+
+
+  <!-- Modal: Info Teacher -->
+  <div class="modal fade khl-modal" id="getInfoTeacher" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog big-modal">
+          <div class="modal-content bgcolor-light_pink">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="container modal-body mbottom60">
+                  <h2 class="title col-xs-12 col-sm-10 col-sm-offset-1 mtop20">Important Information for Teachers</h2>
+                  <div class="col-xs-12 row mtop40 text-left">
+                      <div class="col-xs-12 col-sm-5 font--20 line-height--26 font--semibold">It can be helpful to have a discussion with your class prior to the session to get them thinking about the topic (not essential).</div>
+                      <div class="col-xs-12 col-sm-6 font--18 line-height--24 pright40">Encourage your class to make comments and ask questions - the session is not about right and wrong, it's a discussion where everyone's thoughts are valid. It's equally okay not to speak up during the session, as long as students are listening (we emphasise this point because some sensitive issues can come up and students may need to process these silently).</div>
+                  </div>
+                  <div class="col-xs-12 row mtop40 text-left">
+                      <div class="col-xs-12 col-sm-5 font--20 line-height--26 font--semibold">If you show enthusiasm and interest in the session, from our experience, your class will too.</div>
+                      <div class="col-xs-12 col-sm-6 font--18 line-height--24 pright40">Although the sessions are pre-written, we make them as interactive as possible and have the capacity to be quite responsive to students' interest/needs. There is room for students to ask questions or raise issues that are off the chosen topic (the counsellor will make sure all the necessary information is covered during the session).</div>
+                  </div>
+                  <div class="col-xs-12 row mtop40 text-left">
+                      <div class="col-xs-12 col-sm-5 font--20 line-height--26 font--semibold">Students are usually quite excited to participate in these sessions and engage very well.</div>
+                      <div class="col-xs-12 col-sm-6 font--18 line-height--24 pright40">However, if you notice that your class is not engaging well in the session, please feel free to signal this to the counsellor and intervene to settle the class, mediate or "translate" some of the ideas into language or examples that you know your class will respond to.</div>
+                  </div>
+                  <div class="buttons col-xs-12 text-center mtop40">
+                      <a class="btn btn_primary" href="https://www.yourtown.com.au/online/khl/at-school-booking-form.php" target="_blank">Continue to Booking Page</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Modal: Info Teacher -->
+
+
+
+  <!-- Modal: GetHelp -->
+  <div class="modal fade khl-modal" id="getHelpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog big-modal">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body">
+                  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 header-section text-center">
+                      <h2 class="font--pink">We're here for you. Anytime. Any reason</h2>
+                      <p>No problem is too big or too small. <br>We’re here for you, 24 hours a day, 7 days a week.</p>
+                  </div>
+                  <div class="content-section clearfix">
+                      <div class="col-xs-12 col-md-4">
+                          <div class="image-container">
+                              <img src="/sites/all/themes/kidshelpline/imgs/getHelp/call-us.png" />
+                          </div>
+                          <div class="content mtop40">
+                              <span class="font--32">
+                                  Call Us! <a href="tel:1800551800" class="font--blue">1800 55 1800</a>
+                              </span>
+                              <p class="mtop10">When you need to talk, phone is fastest. 24/7. Every day and night.</p>
+                              <a
+                                href="/get-help/phone-counselling/"
+                                class="btn btn_primary phone_number icon-phone"
+                              >
+                                 <span class="mleft10">
+                                     1800 55 1800                                 </span>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="col-xs-12 col-md-4">
+                          <div class="image-container">
+                              <img src="/sites/all/themes/kidshelpline/imgs/getHelp/email-us.png" />
+                          </div>
+                          <div class="content mtop40">
+                              <span class="font--32">
+                                  Email Us
+                              </span>
+                              <p class="mtop10">Prefer to write? We understand.<br>Email us at: <a href="/get-help/email-counselling/">counsellor@kidshelpline.com.au</a></p>
+                              <a href="/get-help/email-counselling/" class="btn btn_primary email icon-email">
+                                  <span class="mleft10">
+                                      Email Us
+                                  </span>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="col-xs-12 col-md-4">
+                          <div class="image-container">
+                              <img src="/sites/all/themes/kidshelpline/imgs/getHelp/message-us.png" />
+                          </div>
+                          <div class="content mtop40">
+                              <span class="font--32">Chat with Us</span>
+                              <p class="mtop10">Connect with us one-on-one over the web in real time, 24/7.</p>
+                              <a href="/get-help/webchat-counselling" class="btn btn_primary chat_url icon-speachbubble">
+                                  <span class="mleft10">
+                                      WebChat with Us
+                                  </span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Modal: GetHelp -->
+
+
+
+  <input id="defaultPhoneNumber" class="dontDisplay" value="1800 55 1800" />
+  <a name="bottom"></a>
+
+
+  <div class="cookies-prompt hidden">
+    <div class="col-xs-12 col-sm-9 p0">
+      <p>Just a heads up, we use cookies to give you the best experience on our website and to help improve our service. By continuing to use <strong>kidshelpline.com.au</strong>, you are accepting the use of cookies. <a href="/privacy">Learn more</a>. &nbsp;&nbsp;</p>  
+    </div>
+    <div class="col-xs-12 col-sm-3 text-right p0">
+      <button onclick="onCookiesAcceptClick()" class="cookies-prompt-accept">Got it!</button>
+    </div>
+  </div>
+
+
+</body>
+</html>
